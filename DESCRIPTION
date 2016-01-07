@@ -1,0 +1,17 @@
+Package: TxDb.Slycopersicum.itag2.4.genemodels
+Title: Annotation package for TxDb object(s)
+Description: Exposes an annotation databases generated from ITAG2.4 GFF3 file by exposing these as TxDb objects
+Version: 0.0.1
+Author: Atsushi Fukushima <atsushi.fukushima@riken.jp>
+Maintainer: Atsushi Fukushima <atsushi.fukushima@riken.jp>
+Depends: GenomicFeatures (>= 1.21.30)
+Imports: AnnotationDbi
+License: Artistic-2.0
+organism: Solanum lycopersicum
+species: Solanum lycopersicum
+provider: ITAG2.4
+release_date: 2014-02-23
+resource_url: ftp://ftp.solgenomics.net/genomes/Solanum_lycopersicum/annotation/ITAG2.4_release/
+biocViews: AnnotationData, Genetics, TxDb, Arabidopsis_thaliana
+NeedsCompilation: no
+
